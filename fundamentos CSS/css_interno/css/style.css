@@ -1,0 +1,20 @@
+body{
+    background-color: mediumaquamarine;
+
+}
+
+h1{
+    font-size: 50px;
+    color: antiquewhite;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: gray;
+
+}
+p{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+img{
+    width: 250px;
+}

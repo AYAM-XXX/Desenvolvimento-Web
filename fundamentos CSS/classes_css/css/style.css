@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    bottom: 0;
+}
+
+.card{
+    text-align: left;
+    margin: 3%
+}
+.card h1{
+    font-size: 40px;
+}
+.card p{
+    font-size: 30px;
+}

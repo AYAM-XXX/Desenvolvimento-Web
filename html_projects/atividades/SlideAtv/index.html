@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso Desenvolvimento Web</title>
 </head>
+
 <body>
     <header>
-    <img src="imagens/image.png" alt="simbolo de codificação" width="50">
-     <h1>Curso de<br>Desenvolvimento Web</h1>
-     <img src="imagens/notebook.png" alt="notebook" width="70">
+        <img src="imagens/image.png" alt="simbolo de codificação" width="50">
+        <h1>Curso de Desenvolvimento Web</h1>
+        <img src="imagens/notebook.png" alt="notebook" width="50">
     </header>
     <hr>
-        <style>
-    #navegacao {
-        border: 0px solid black;
-        border-collapse: collapse;
-    }
-    #navegacaotr tr,
-    #navegacao td {
-        border: 1px solid black;
-        padding: 10px;
-    }
-</style>
-    <table id="navegacao">
-        <tr>
-            <td>Inicio</td>
+    <nav>
+        <table id="navegacao">
+            <tr>
+                <td><a href="inicio">Inicio| </a></td>
 
-            <td>Sobre o curso</td>
+                <td><a href="Sobre o Curso">Sobre o Curso| </a></td>
 
-            <td>Conteudo</td>
+                <td><a href="Conteúdo">Conteúdo| </a></td>
 
-            <td>Horarios</td>
+                <td><a href="Horarios">Horarios| </a></td>
 
-            <td>Inscrição</td>
-        </tr>
-    </table>
+                <td><a href="Inscrição">Inscrição</a></td>
+            </tr>
+        </table>
+    </nav>
+<hr>
     <h1>Sobre o Curso</h1>
     <ul>
         <li>Introdução á web</li>
@@ -45,23 +39,11 @@
         <li>Responsividade(Mobile First)</li>
         <li>Projeto Final</li>
     </ul>
+    <hr>
     <h1>Horarios das aulas</h1>
 
-    <style>
-    #horarios {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
 
-    #horarios tr,
-    #horarios td {
-        border: 1px solid black;
-        padding: 10px;
-    }
-</style>
-
-
-    <table id="horarios">
+    <table id="horarios" border="1">
         <tr>
             <th>Dia</th>
             <th>Horario</th>
@@ -77,25 +59,41 @@
             <td>13h as 17h</td>
             <td>4h</td>
         </tr>
-             <tr>
+        <tr>
             <td>Quarta-Feira</d>
             <td>13h as 17h</td>
             <td>4h</td>
         </tr>
-             <tr>
+        <tr>
             <td>Quinta-Feira</d>
             <td>13h as 17h</td>
             <td>4h</td>
         </tr>
-             <tr>
+        <tr>
             <td>Sexta-Feira</d>
             <td>13h as 17h</td>
             <td>4h</td>
         </tr>
     </table>
+    <hr>
+    <form action="">
+        <h2>Tenho interesse no Curso</h2>
+        <p>Preencha seus dados para receber informações sobre cursos, turmas e promoções</p>
 
+        <label for="nome">Nome completo: </label>
+        <input type="text" name="cadastro" id="nome">
+        <label for="email">E-mail: </label>
+        <input type="email" name="cadastro" id="email">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="cadastro" id="telefone">
 
-
-</table>
+        <button type="submit">Cadastrar Interesse</button>
+    </form>
+    <footer>
+        <hr>
+        <p>Curso de Desenvolvimento Web</p>
+        <p>@2026-Todos Direitos Reservados</p>
+    </footer>
 </body>
+
 </html>
